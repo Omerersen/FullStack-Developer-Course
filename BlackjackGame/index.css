@@ -1,0 +1,30 @@
+body {
+  background-image: url("İmages/table.png");
+  background-size: cover;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center;
+  color: #ffffff;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1{
+  color: goldenrod;
+}
+
+#message-el{
+  font-style: italic;
+}
+
+#start-btn , #new-card-btn {
+  width: 150px;
+  color: #016F32;
+  background-color: goldenrod;
+  border-radius: 5px;
+  padding: 5px 0;
+  font-weight: bold;
+  border: none;
+  margin-bottom: 4px;
+}

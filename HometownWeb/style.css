@@ -1,0 +1,57 @@
+body{
+  margin: 0;
+}
+
+.header{
+  display: flex;
+  flex-direction: row;
+  width: auto;
+  height: 400px;
+  background-color: #81A4CD;
+}
+.img{
+  background-image: url("İmages/sinop2.png");
+  background-size: cover;
+  width: 800px;
+  height: 400px;
+}
+
+.info{
+  margin: 20px; 
+}
+.paraf{
+  margin-bottom: 20px;
+}
+
+li{
+  margin-bottom: 20px;
+}
+.activities{
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #C2E1C2;
+  padding-top: 50px;
+}
+
+.img-inceburun{
+  background-image: url("İmages/inceburun.png");
+  background-size: cover;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+.img-guide{
+  background-image: url("İmages/image.png");
+  background-size: cover;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+.guide{
+  display: flex;
+  flex-direction: row;
+  background-color: #81A4CD;
+  padding: 50px 200px 0 20px ;
+}
